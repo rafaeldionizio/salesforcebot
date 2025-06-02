@@ -35,7 +35,8 @@ Fluxos Detalhados do Bot:
   Coleta as informações pertinentes do cliente.
   Chama um Flow para criar um caso de suporte técnico.
   Se necessário, o bot oferece a transferência para um agente (observação: para simular a transferência, um agente precisa estar online e disponível).
-  
+  ![image](https://github.com/user-attachments/assets/cb09bcd7-0f43-414a-8a8f-62c3a86bd414)
+
 - Diálogo "Política de Devolução":
   Realiza uma busca na base de conhecimento (Knowledge) do próprio bot sobre políticas de devolução.
   Exibe o conteúdo da política para o cliente.
