@@ -13,6 +13,7 @@ Site usado para simular integração: https://webhook.site/#!/view/c59b9c20-a505
 Minha arquitetura de bot foi desenvolvida para ser solida, dinâmica e centrada no cliente. Utilizo diálogos que coletam informações e um componente reutilizável para confirmação de dados (com perguntas "Sim ou Não"), que podem ser acionados a qualquer momento no fluxo conversacional. Após interagir com qualquer menu, o cliente sempre é perguntado se deseja encerrar a conversa ou retornar ao menu principal.
 
 Para rastrear a jornada do cliente de forma eficaz, criei um campo Journey na Messaging Session. Este campo é atualizado por um Flow do Salesforce, chamado diretamente do bot, que registra o nome da jornada atual do cliente.
+![image](https://github.com/user-attachments/assets/ae6d7ab5-2c48-4c09-ad7f-1360de770d6a)
 
 Fluxos Detalhados do Bot:
 - Diálogo "Pegar informações do cliente":
@@ -41,6 +42,7 @@ Fluxos Detalhados do Bot:
   Realiza uma busca na base de conhecimento (Knowledge) do próprio bot sobre políticas de devolução.
   Exibe o conteúdo da política para o cliente.
   Pergunta se o cliente deseja iniciar uma devolução e, se sim, coleta as informações necessárias para abrir um caso de devolução via Flow.
+  ![image](https://github.com/user-attachments/assets/e9a8a95d-2a01-4a92-88db-20f9026a41dd)
   
 - Diálogo "Contratação de Serviço":
   Busca e exibe os produtos disponíveis no Price Book Bot Offers.
