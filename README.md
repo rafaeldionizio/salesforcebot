@@ -2,7 +2,7 @@
 
 Site para teste (Haverá um balão preto no canto inferior direito da tela): https://adrenaline-rds-dev-ed.develop.my.site.com/help
 
-Usuário para entrar na org: apexadrenaline@bot.com / Senha: teste123
+Usuário para entrar na org: apexadrenaline@bot.com / Senha: teste123 / Login: https://adrenaline-rds-dev-ed.develop.my.salesforce.com/
 
 Para simular a transferência, é essencial que o usuário acima esteja online.
 
