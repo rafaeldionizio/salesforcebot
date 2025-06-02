@@ -10,7 +10,7 @@ Site usado para simular integração: https://webhook.site/#!/view/c59b9c20-a505
 
 # Sobre o projeto
 
-Minha arquitetura de bot foi desenvolvida para ser dinâmica e centrada no cliente. Utilizo diálogos que coletam informações e um componente reutilizável para confirmação de dados (com perguntas "Sim ou Não"), que podem ser acionados a qualquer momento no fluxo conversacional. Após interagir com qualquer menu, o cliente sempre é perguntado se deseja encerrar a conversa ou retornar ao menu principal.
+Minha arquitetura de bot foi desenvolvida para ser solida, dinâmica e centrada no cliente. Utilizo diálogos que coletam informações e um componente reutilizável para confirmação de dados (com perguntas "Sim ou Não"), que podem ser acionados a qualquer momento no fluxo conversacional. Após interagir com qualquer menu, o cliente sempre é perguntado se deseja encerrar a conversa ou retornar ao menu principal.
 
 Para rastrear a jornada do cliente de forma eficaz, criei um campo Journey na Messaging Session. Este campo é atualizado por um Flow do Salesforce, chamado diretamente do bot, que registra o nome da jornada atual do cliente.
 
