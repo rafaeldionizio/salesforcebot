@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>Aura</label>
+        <mlIntents>
+            <developerName>Answer_Automation</developerName>
+            <label>Article Answers</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Main_Menu</developerName>
+            <label>Main Menu</label>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Menu</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>menu</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Voltar ao menu</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>voltar</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transfer To Agent</label>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Falar com Atendente</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Atendente</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Humano</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Oi</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>oi</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>Olá</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>pt_BR</language>
+                <utterance>ola</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <name>Aura</name>
+    </botMlDomain>
+    <botUser>rafaeldioniziosantos939@agentforce.com</botUser>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser ContactId</description>
+        <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingEndUser Id</description>
+        <developerName>EndUserId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <description>This variable may also be referred to as MessagingSession Id</description>
+        <developerName>RoutableId</developerName>
+        <includeInPrompt>true</includeInPrompt>
+        <label>Routable Id</label>
+    </contextVariables>
+    <defaultOutboundFlow>ChatsRoutedToAgentsAndQueues</defaultOutboundFlow>
+    <description>A bot from scratch.</description>
+    <label>Adrenaline</label>
+    <logPrivateConversationData>true</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>Bot</type>
+</Bot>
