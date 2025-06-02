@@ -45,3 +45,5 @@ Fluxos Detalhados do Bot:
   Busca e exibe os produtos disponíveis no Price Book Bot Offers.
   Permite ao cliente selecionar o produto desejado.
   Coleta as informações do cliente e, em seguida, cria uma oportunidade vinculada a esse produto e uma tarefa associada a ela.
+  ![image](https://github.com/user-attachments/assets/409bb36a-50e5-4470-a269-a04c4a7c9a7a)
+
