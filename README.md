@@ -50,3 +50,8 @@ Fluxos Detalhados do Bot:
   Coleta as informações do cliente e, em seguida, cria uma oportunidade vinculada a esse produto e uma tarefa associada a ela.
   ![image](https://github.com/user-attachments/assets/409bb36a-50e5-4470-a269-a04c4a7c9a7a)
 
+# Ajustes e Melhorias nos Processos do Bot e Flows
+- Implementar caminhos de falha (fault paths) nos fluxos (Flows) que ainda não os possuem.
+- Revisar a limpeza de variáveis no bot para garantir que não haja comportamentos inesperados.
+- Adicionar tratamento de erros nas ações (actions) do bot que estão sem essa configuração.
+- Incluir a opção "Corrigir Entendimento Incorreto" (Repairing Misunderstanding) nas questões do bot que ainda não a utilizam.
