@@ -25,10 +25,10 @@ Fluxos Detalhados do Bot:
   O cliente digita o número do pedido para consulta.
   
   Números para Teste (Simulação):
-  404: Gera um erro de "produto não encontrado".
-  500: Gera um erro de "serviço inválido".
-  401: Gera um "erro inesperado".
-  Qualquer número maior que 600: Simula um cenário de sucesso.
+  - 404: Gera um erro de "produto não encontrado".
+  - 500: Gera um erro de "serviço inválido".
+  - 401: Gera um "erro inesperado".
+  - Qualquer número maior que 600: Simula um cenário de sucesso.
   
   Quando o número é inserido, uma classe Apex é invocada para consultar um serviço de rastreamento. O bot então exibe a mensagem apropriada de sucesso ou erro com base na resposta do serviço.
 
